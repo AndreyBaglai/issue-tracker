@@ -1,5 +1,11 @@
+import IssuesList from "./components/IssuesList";
+
 function App() {
-  return <div>Hello world</div>;
+  return (
+    <div>
+      <IssuesList />
+    </div>
+  );
 }
 
 export default App;
